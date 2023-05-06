@@ -52,6 +52,9 @@ link {
 .about-container {
 }
 
+.text-container {
+}
+
 .about-title {
   font-weight: 600;
   font-size: 32px;
@@ -65,10 +68,9 @@ link {
 .about-list {
 }
 
-.list {
-}
-
 .about-item {
+  width: 335px;
+  height: 108px;
   margin-bottom: 20px;
 }
 
@@ -83,3 +85,9 @@ link {
   letter-spacing: -0.02em;
   color: #141414;
 }
+
+/*.gif-container {
+  justify-content: center;
+  width: 335px;
+  height: 365px;
+}*/
