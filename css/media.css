@@ -27,14 +27,15 @@
 }
 
   .gif-container {
-    display: flex;
-    justify-content: right;
+    background-position: right;
+    /*transform: translate(40%);
+    justify-content:right;
     width: 704px;
-    height: 465px;
+    height: 465px;*/
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .text-container {
     display: flex;
     flex-direction: row;
@@ -44,6 +45,7 @@
 
   .about-title {
     line-height: 1.29;
+    white-space: nowrap;
   }
   
   .about-list {
@@ -59,8 +61,18 @@
   } 
 
   .gif-container {
-    width: 892px;
+    display: flex;
+    justify-content: center;
+    /*width: 892px;
     height: 500px;
+    background-image: url(../images/watchspot.gif);
+    background-size: 892px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    /*flex: none;
+    width: 892px;
+    height: 500px;*/
   }
 }
 

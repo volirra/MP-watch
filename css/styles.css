@@ -86,8 +86,13 @@ link {
   color: #141414;
 }
 
-/*.gif-container {
-  justify-content: center;
-  width: 335px;
+.gif-container {
+  display: flex;
+  background-image: url(../images/watchspot.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  /*width: 335px;
   height: 365px;
-}*/
+  justify-content: center;*/
+}
