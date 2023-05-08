@@ -46,13 +46,7 @@ link {
 /*----------ABOUT----------*/
 
 .about {
-  padding-bottom: 80px;
-}
-
-.about-container {
-}
-
-.text-container {
+  padding: 40px 0 80px 0;
 }
 
 .about-title {
@@ -61,20 +55,6 @@ link {
   line-height: 1.25;
   letter-spacing: -0.02em;
   color: #1E2827;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-.about-list {
-}
-
-.about-item {
-  width: 335px;
-  height: 108px;
-  margin-bottom: 20px;
-}
-
-.about-item:last-child {
   margin-bottom: 40px;
 }
 
@@ -84,6 +64,10 @@ link {
   line-height: 1.29;
   letter-spacing: -0.02em;
   color: #141414;
+}
+
+.top-text {
+  margin-bottom: 40px;
 }
 
 .gif-container {

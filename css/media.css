@@ -1,32 +1,29 @@
 @media screen and (min-width: 768px) {
+   .about {
+    padding-top: 64px;
+    padding-bottom: 128px;
+    }
   
-  .text-container {
+    .text-container {
     display: flex;
-    flex-direction: row;
-    gap: 40px;
-    margin-top: 64px;
-  }
-
-  .about-list {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
    }
 
-  .about-title {
+   .about-title {
     font-size: 40px;
     line-height: 1.10;
-    margin-top: 0;
     margin-right: 40px;
   }
 
-  .about-item {
-  width: 220px;
-  height: 162px;
-  margin-bottom: 40px;
+  .top-text {
+    margin-right: 20px;
+    width: 220px;
 }
 
-  .gif-container {
+  .bottom-text {
+    width: 250px;
+}
+
+    .gif-container {
     background-position: right;
     /*transform: translate(40%);
     justify-content:right;
@@ -36,29 +33,17 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .text-container {
-    display: flex;
-    flex-direction: row;
-    gap: 110px;
-    margin-top: 80px;
-  }
 
+  .about {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  
   .about-title {
     line-height: 1.29;
+    margin-right: 110px;
     white-space: nowrap;
   }
-  
-  .about-list {
-    display: flex;
-    flex-direction: row;
-    gap: 40px;
-   }
-  
-  .about-item {
-    width: 439px;
-    height: 90px;
-    margin-bottom: 40px;
-  } 
 
   .gif-container {
     display: flex;
