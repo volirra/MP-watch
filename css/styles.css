@@ -41,7 +41,97 @@ link {
   list-style: none;
   text-decoration: none;
 }
+
+address {
+  font-style: normal;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /*----------HEDER----------*/
+.header {
+  padding-top: 29px;
+  padding-bottom: 69px;
+  background-color: #141414;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heder-nav {
+  display: flex;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  transition-property: transform;
+  transition-duration: 300ms;
+}
+
+.header-logo:focus
+.header-logo:hover {
+  transform: scale(1.1);
+}
+
+.logo-text {
+  font-size: 12px;
+  line-height: 1.0;
+  letter-spacing: -3%;
+  color: #fff;
+}
+
+.nav-list {
+  display: none;
+}
+
+.address {
+  display: none;
+}
+
+.menu-open-btn {
+
+}
+.mob-menu-icon {
+}
+.mob-menu {
+}
+.is-hidden {
+}
+.mob-menu-container {
+}
+.mob-logo {
+}
+.logo {
+}
+.menu-close-btn {
+}
+.mobile-menu-button-icon {
+}
+.mob-menu-list {
+}
+.mob-menu-item {
+}
+.mob-menu-link {
+}
+.link {
+}
+
 /*----------HERO----------*/
 /*----------ABOUT----------*/
 
